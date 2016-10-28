@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.Scanner;
-
+////
 public abstract class ExamForWhileStars {
 
 	public static void main(String[] args) {
-		
+		//
 		Scanner input = new Scanner(System.in);
 		System.out.println("*************");
         System.out.println("반복문 연습하기2");

@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-
+//
 public class RectangleStars {
 	public void rectangleStars() {
 	Scanner input = new Scanner(System.in);
