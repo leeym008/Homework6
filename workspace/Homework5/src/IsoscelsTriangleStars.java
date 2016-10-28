@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-//
+
 public class IsoscelsTriangleStars {
 	public void isoscelsTrinaestars() {
 		Scanner input = new Scanner(System.in);
