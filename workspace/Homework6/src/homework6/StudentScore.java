@@ -9,6 +9,7 @@ public class StudentScore {
 		float Array[][] = new float[5][5];
 		float Sum=0, Jumsu;
 		
+		//점수 입력
 		for(int i=0; i<5; i++){
 			for(int j=0; j<5; j++){
 				if (j==0){
@@ -29,7 +30,7 @@ public class StudentScore {
 			}
 		}
 		
-		
+		// 총합,평균 계산
 		for(int i=0; i<5; i++){
 			for(int j=0; j<3; j++){
 				Sum+=Array[i][j];
@@ -39,6 +40,7 @@ public class StudentScore {
 			Sum=0;
 		}
 		
+		//출력
 		for(int i=0; i<5; i++){
 				System.out.printf("%d 번째 학생의 총점은 %.2f, 평균은 %.2f 입니다.\n", i, Array[i][3], Array[i][4]);
 		}
