@@ -34,33 +34,30 @@ public abstract class ExamVariousArray {
                 System.out.println("==================");
                 System.out.println("심사점수계산");
                 System.out.printf("가장 큰 점수와 가장작은점수제외\n");
-                /*TriangleStars B = new TriangleStars();
-                B.triangleStars();*/
+                new AvgScore().avgscore();
+                
                 menu=0;
                 break;
                 
             case 3:
                 System.out.println("==================");
                 System.out.printf("5명의 국어, 영어, 수학 점수의 과목별총점 및 평균 구하기\n");
-                /*IsoscelsTriangleStars C = new IsoscelsTriangleStars();
-                C.isoscelsTrinaestars();*/
+                new StudentScore().studentscore();
                 menu=0;
                 break;
             
             case 4:
                 System.out.println("==================");
                 System.out.printf("5층아파트 거주자인원 파악하기\n");
+                new AptPersonCount().aptpersoncount();
                 menu=0;
-                /*DiamondStars D = new DiamondStars();
-                D.diamondstars();*/
                 break;
                 
             case 5:
                 System.out.println("==================");
                 System.out.printf("겹치지 않는 10개 숫자 입력받기\n");
+                new OnlyNumber().onlynumber();
                 menu=0;
-                /*DiamondStars D = new DiamondStars();
-                D.diamondstars();*/
                 break;
                 
             default :

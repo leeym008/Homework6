@@ -13,6 +13,7 @@ public class SecondMax {
 		for(i=0; i<10; i++){
 			System.out.printf("%d번째 숫자를 입력하세요 : ",i+1);
 			Num=Input.nextInt();
+			Array[i]=Num;
 			if (i==0)
 				Max=Num;
 			else if(i==1)
