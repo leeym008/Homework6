@@ -1,6 +1,7 @@
 package homework6;
 import java.io.*;
 import java.util.Scanner;
+
 public abstract class ExamVariousArray {
     public static void main(String[] args) {
         ////
@@ -23,8 +24,8 @@ public abstract class ExamVariousArray {
             case 1:
                 System.out.println("==================");
                 System.out.println("10개의 숫자를 입력받아 배열에 저장하고");
-                System.out.printf("두번째로 큰 수를 출력하라.");
-                /*new RectangleStars(rectangleStars(););*/
+                System.out.printf("두번째로 큰 수를 출력하라.\n");
+                new SecondMax().secondmax();
                 
                 menu=0;
                 break;
@@ -32,7 +33,7 @@ public abstract class ExamVariousArray {
             case 2:
                 System.out.println("==================");
                 System.out.println("심사점수계산");
-                System.out.printf("가장 큰 점수와 가장작은점수제외");
+                System.out.printf("가장 큰 점수와 가장작은점수제외\n");
                 /*TriangleStars B = new TriangleStars();
                 B.triangleStars();*/
                 menu=0;
@@ -40,7 +41,7 @@ public abstract class ExamVariousArray {
                 
             case 3:
                 System.out.println("==================");
-                System.out.printf("5명의 국어, 영어, 수학 점수의 과목별총점 및 평균 구하기");
+                System.out.printf("5명의 국어, 영어, 수학 점수의 과목별총점 및 평균 구하기\n");
                 /*IsoscelsTriangleStars C = new IsoscelsTriangleStars();
                 C.isoscelsTrinaestars();*/
                 menu=0;
@@ -48,7 +49,7 @@ public abstract class ExamVariousArray {
             
             case 4:
                 System.out.println("==================");
-                System.out.printf("5층아파트 거주자인원 파악하기");
+                System.out.printf("5층아파트 거주자인원 파악하기\n");
                 menu=0;
                 /*DiamondStars D = new DiamondStars();
                 D.diamondstars();*/
@@ -56,7 +57,7 @@ public abstract class ExamVariousArray {
                 
             case 5:
                 System.out.println("==================");
-                System.out.printf("겹치지 않는 10개 숫자 입력받기");
+                System.out.printf("겹치지 않는 10개 숫자 입력받기\n");
                 menu=0;
                 /*DiamondStars D = new DiamondStars();
                 D.diamondstars();*/
