@@ -6,7 +6,6 @@ public class AvgScore {
 	public void avgscore() {
 		
 		Scanner Input = new Scanner(System.in);
-		
 		float Array[] = new float[10];
 		float Avg, Max=0,Min=0,Sum=0,Num;
 		
